@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables in HTML</title>
+  </head>
+  <body>
+    <a href="./index.html">Homepage</a>
+
+    <br />
+    <hr />
+    <br />
+
+    <table border="10" cellpadding="20px">
+      <!-- <thead>This is student's table</thead> -->
+      <tr>
+        <th>Name</th>
+        <th>Roll no</th>
+        <th>City</th>
+      </tr>
+
+      <tr>
+        <td>Devraj</td>
+        <td>2345</td>
+        <td>Rewari</td>
+      </tr>
+
+      <tr>
+        <td>Janwi</td>
+        <td>5678</td>
+        <td>Gurugram</td>
+      </tr>
+      <!-- <tfoot>This is end of the table</tfoot> -->
+    </table>
+
+    <br />
+    <hr />
+    <br />
+
+    <table border="2" cellpadding="10px">
+        <tr>
+            <th colspan="4">This is table's description</th>
+        </tr>
+
+      <tr>
+        <th>Name</th>
+        <th>Mobile</th>
+        <th>email</th>
+        <th>City</th>
+      </tr>
+
+      <tr>
+        <td>Kunal</td>
+        <td colspan="2">NA</td>
+        <td>Delhi</td>
+      </tr>
+
+      <tr>
+        <td rowspan="2">Vansh</td>
+        <td>1234567890</td>
+        <td>contact@vansh.com</td>
+        <td rowspan="2">Delhi</td>
+      </tr>
+
+      <tr>
+        <td>9876543210</td>
+        <td>vansh@query.com</td>
+      </tr>
+    </table>
+  </body>
+</html>
