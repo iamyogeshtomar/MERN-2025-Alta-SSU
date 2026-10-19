@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: black;
+  height: 10vh;
+}
+
+.special {
+  color: gray;
+  background-color: yellowgreen;
+}
+
+#main-heading {
+  background-color: royalblue;
+  color: orchid;
+}
+
+li:nth-child(even) {
+  /* For odd items in list */
+  background-color: black;
+  color: white;
+}
+
+li {
+  background-color: blue;
+  color: green;
+}
+
+/* #my-list-item{
+    background-color: brown;
+    color: aqua;
+} */
+
+ul#main-list li#my-list-item {
+  background-color: teal;
+  color: sienna;
+}
+
+li:hover {
+  /* For hover items */
+  background-color: rebeccapurple;
+  color: white;
+}
+
+#card-container h3 ~ h4 {
+  color: pink;
+}
+
+label[for="password"] {
+  color: darkgoldenrod;
+}
+
+label + input[type="number"] {
+  color: fuchsia;
+}

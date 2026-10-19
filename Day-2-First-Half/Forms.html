@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Forms in HTML</title>
+  </head>
+  <body>
+    <a href="./index.html"> Homepage</a>
+
+    <br />
+    <br />
+    <br />
+
+    <hr />
+
+    <form>
+      <label for="name">Name</label>
+      <input type="text" placeholder="Enter your name" />
+
+      <br />
+      <label for="password">Password</label>
+      <input type="password" />
+      <br />
+
+      <!-- <input type=""> -->
+
+      <label for="mobile">Mobile</label>
+      <input type="number" />
+
+      <br />
+
+      <label for="dob">DOB</label>
+      <input type="datetime-local" />
+
+      <br />
+
+      <label for="description">give a brief description about yourself</label>
+      <textarea
+        name=""
+        id=""
+        placeholder="Please delete me before writing"
+      ></textarea>
+
+      <br />
+
+      <label for="rating">Rating</label>
+      <input type="range" min="0" max="5" />
+
+      <br />
+
+      <label for="gender">Gender</label>
+
+      <label for="gender">
+        <input type="radio" name="gender" value="male" />
+        Male
+      </label>
+
+      <label for="gender">
+        <input type="radio" name="gender" value="female" />
+        Female
+      </label>
+
+      <br />
+
+      <label for="direction">Select Direction</label>
+
+      <select name="direction" id="">
+        <option value="north">North</option>
+        <option value="south">South</option>
+        <option value="east">East</option>
+        <option value="west">West</option>
+      </select>
+
+      <br />
+      <br />
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
