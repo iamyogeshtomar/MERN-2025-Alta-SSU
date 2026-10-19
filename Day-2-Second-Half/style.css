@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  /* font-size: 80px; */
+}
+
+body {
+  /* background-color: blueviolet; */
+  /* background-image: url("./assets/nathan-dumlao-SwIh3kr1__U-unsplash.jpg"); */
+  /* background-position: center; */
+  /* background-size: cover; */
+  background: url("./assets/joel-vodell-TApAkERW5pQ-unsplash.jpg") center/cover;
+  min-height: 100vh;
+}
+
+#para {
+  /* font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  font-size: xx-large;
+  font-weight: 500;
+  font-style: italic; */
+  font:
+    italic 380 30px/2em "Trebuchet MS",
+    "Lucida Sans Unicode",
+    "Lucida Grande",
+    "Lucida Sans",
+    Arial,
+    sans-serif;
+}
+
+#para-special-word {
+  font-family: cursive;
+  background-color: darkgoldenrod;
+}
+
+#example {
+  margin: 20px;
+  width: 300px;
+  height: 400px;
+  background-color: rgba(123, 232, 111, 0.2);
+  /* background-color: #446699; */
+  /* background-color: pink; */
+  border-color: lawngreen;
+  border-width: 1cm;
+  border-radius: 10px;
+  border: 10px solid lawngreen;
+  border-radius: 48px;
+  /* background: #e0e0e0; */
+  /* box-shadow: inset 28px -28px 55px #8b8b8b, */
+  /* inset -28px 28px 55px #ffffff; */
+  /* border-style:groove; */
+  /* border-top-right-radius: 200px; */
+  /* border-bottom-left-radius: 30px; */
+}
+
+#relative{
+  width: 50vmin;
+  height: 50vmin;
+  background-color: rgba(123, 234, 111, 0.8);
+  margin: 20px;
+  border: 2px solid yellow;
+  font-size: 20px;
+  padding: 20px;
+}
+
+#relative-child{
+  background-color: blue;
+  width: 80%;
+  height: 80%;
+  border: 2px solid purple;
+  font-size: 0.5rem;
+  margin: 20px;
+}
+
+#main-heading{
+  font-size: 2rem;
+}
